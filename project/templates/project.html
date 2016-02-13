@@ -1,0 +1,85 @@
+<meta charset=utf-8>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> portfolio </title>
+    <link rel="stylesheet" type="text/css" href="../static/style/style.css">
+  </head>
+
+  <body>
+
+    <div id="menu1">
+      <table style="width:900px" align="center">
+        <tr>
+          <td><a href="/">/index</a></td>
+          <td><a href="/list">/list</a></td>
+          <td><a href="/techniques">/techniques</a></td>
+          <td><a href="/about">/about</a></td>
+          <td><form method="post" action="/list">
+          <td><input type="text" name="search" placeholder="Skriv in sökord här:"></td>
+          <td><input type="submit" name="Submit" value="Search"></td>
+          <td><p class="search">Sortering:</p></td>
+          <td><p class="search">Fallande</p></td>
+          <td><input class="search" type="radio" name="sort_order" value="desc" checked></td>
+          <td><p class="search">Stigande</p></td>
+          <td><input type="radio" name="sort_order" value="asc"></td>
+          <td><select name="sort_by">
+            <option value="start_date" >sort by</option>
+            <option value="start_date" >start date</option>
+            <option value="end_date" >end date</option>
+            <option value="group_size" >group size</option>
+            <option value="project_no" >project no</option>
+          </select></td>
+          </form></td>
+        </tr>
+      </table>
+     </div>
+
+    <table style="height: 70px"> </table>
+
+    <header>
+    </header>
+
+    <main>
+      <table class='table3'>
+        <tr>
+          <td>
+            <h1>{{ project['project_name']}}</h1>
+              <img class="image" src="{{ project['big_image'] }}" onerror="">
+            <p>
+              <h3>Information:</h3>
+              <b>Projekt nummer:</b>  {{project['project_no']}} <br>
+              <b>Start datum:</b>     {{project['start_date']}} <br>
+              <b>Slut datum:</b>      {{project['end_date']}}   <br>
+              <b>Information:</b>     {{project['long_description']}}<br>
+            </p>
+          </td>
+        </tr>
+      <tr>
+        <td>
+          <h3>Tekniker använda: <br> {% for tek in project['techniques_used'] %}</h3>
+            <p>
+              <a class="projectname" href="../{{ tek }}">{{ tek }}</a>
+              {% endfor %}
+            </p>
+        </td>
+      </tr>
+        <tr>
+          <td><h3>Övrig information</h3>
+          <p>
+            <b>Högskolepoäng:</b> {{project['academic_credits']}} <br>
+            <b>Antal gruppmedlemmar:</b> {{project['group_size']}}<br>
+            <b>Extern länk:</b><a href="{{project['external_link']}}">{{project['project_name']}}</a><br>
+          </p></td>
+        </tr>
+      </table>
+    </main>
+
+    <footer>
+      <table class='table4'>
+        <td> Created by Kenbo736 and Emeol873 2015 </td>
+      </table>
+    </footer>
+
+  </body>
+</html>

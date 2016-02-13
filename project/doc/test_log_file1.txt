@@ -1,0 +1,24 @@
+2015-10-19 15:13:&S - load(filename):data.json
+2015-10-19 15:13:&S - get_project(db, id)1
+2015-10-19 15:13:&S - get_project(db, id)2
+2015-10-19 15:13:&S - get_project(db, id)3
+2015-10-19 15:13:&S - get_project(db, id)4
+2015-10-19 15:13:&S - get_project(db, id)42
+2015-10-19 15:13:&S - load(filename):data.json
+2015-10-19 15:13:&S - get_project_count(db):4
+2015-10-19 15:13:&S - load(filename):data.json
+2015-10-19 15:13:&S - get_technique_stats: Size of database:4
+2015-10-19 15:13:&S - load(filename):data.json
+2015-10-19 15:13:&S - get_techniques(db): Size of database:4
+2015-10-19 15:13:&S - load(filename):data.json
+2015-10-19 15:13:&S - load(filename):/dev/this_file_does_not_exist
+2015-10-19 15:13:&S - load(filename):/dev/this_file_does_not_exist
+2015-10-19 15:13:&S - load(filename):data.json
+2015-10-19 15:13:&S - Search: techniques:None, search:None, search_fields:None
+2015-10-19 15:13:&S - Search: techniques:['csv'], search:None, search_fields:None
+2015-10-19 15:13:&S - Search: techniques:['python'], search:None, search_fields:None
+2015-10-19 15:13:&S - Search: techniques:None, search:okänt, search_fields:['project_no', 'project_name', 'course_name']
+2015-10-19 15:13:&S - Search: techniques:None, search:okänt, search_fields:['project_no', 'project_name', 'course_name']
+2015-10-19 15:13:&S - Search: techniques:[], search:okänt, search_fields:['project_no', 'project_name', 'course_name']
+2015-10-19 15:13:&S - Search: techniques:None, search:okänt, search_fields:[]
+2015-10-19 15:13:&S - Search: techniques:None, search:None, search_fields:None

@@ -1,0 +1,142 @@
+a:link, a:visited
+{
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    color: #4C4C4C;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #DBDBDB;
+}
+body
+{
+    background-image: url("../style/background.png");
+    background-color: #cccccc;
+    margin: 0;
+}
+h1
+{
+  text-align: center;
+}
+
+#menu1
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 7px 10px;
+    position: fixed;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #999999;
+
+}
+.table2
+{
+    box-shadow: 0px 7px 10px;
+    alignment: center;
+    margin: auto;
+    width: 900px;
+    padding: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #999999;
+}
+.table3
+{
+    margin: auto;
+    width: 900px;
+    background-color: #CFCFCF;
+    box-shadow: 0px 7px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #999999;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+header
+{
+  padding: 0px;
+  margin: 80px auto auto auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #999999;
+  width: 900px;
+  height: 248px;
+  box-shadow: 0px 7px 10px;
+  background-image: url("../style/header.jpg")
+}
+main
+{
+    padding: 15px;
+}
+.table4
+{
+    bottom: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: #CFCFCF;
+    box-shadow: 0px 7px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #999999;
+}
+p
+{
+    margin-right: 5.5px;
+    margin-left: 5.5px;
+    margin-bottom: 5.5px;
+    margin-top: 0px;
+}
+
+.image {
+  border: 1px solid black;
+  max-width: 350px;
+  display: inline-block;
+  box-shadow: 0px 5px 10px;
+}
+
+.smallimage {
+  border: 1px solid black;
+  width: 200px;
+  display: inline-block;
+  box-shadow: 0px 5px 10px;
+}
+
+.project{
+  text-align: center;
+}
+.projectname
+{
+  display: inline-block;
+
+}
+.shortdesc
+{
+  margin-bottom: 100px;
+}
+.search
+{
+  font-size: x-small;
+}
+#tekniker
+{
+  width: 170px;
+  background-color: #CFCFCF;
+  box-shadow: 0px 7px 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #999999;
+  position: fixed;
+  margin-top: -313px;
+  margin-left: -13px;
+  font-size: 9px;
+}
